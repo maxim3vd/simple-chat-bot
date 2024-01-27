@@ -18,3 +18,5 @@ age = (remainder_3 * 70 + remainder_5 * 21 + remainder_7 * 15) % 105
 print(f"Your age is {age}; that's a good time to start programming!")
 
 print("Now I will prove to you that I can count to any number you want.")
+
+number = int(input())
