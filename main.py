@@ -11,3 +11,7 @@ print(f"What a great name you have, {user_name}!")
 print("""
 Let me guess your age.
 Enter remainders of dividing your age by 3, 5 and 7.""")
+
+remainder_3 = int(input())
+remainder_5 = int(input())
+remainder_7 = int(input())
