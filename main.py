@@ -13,3 +13,5 @@ Enter remainders of dividing your age by 3, 5 and 7.""")
 remainder_3 = int(input())
 remainder_5 = int(input())
 remainder_7 = int(input())
+
+age = (remainder_3 * 70 + remainder_5 * 21 + remainder_7 * 15) % 105
