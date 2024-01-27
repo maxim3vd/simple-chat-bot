@@ -23,3 +23,5 @@ number = int(input())
 
 for num in range(number + 1):
     print(f"{num} !")
+
+print("Completed, have a nice day!")
