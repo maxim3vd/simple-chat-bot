@@ -30,3 +30,13 @@ Why do we use methods?
 2. To decompose a program into several small subroutines.
 3. To determine the execution time of a program.
 4. To interrupt the execution of a program.""")
+
+correct_answer = False
+
+while not correct_answer:
+    answer = int(input())
+    if answer == 2:
+        print("Congratulations, have a nice day!")
+        correct_answer = True
+    else:
+        print("Please, try again.")
