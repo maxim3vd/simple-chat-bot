@@ -24,4 +24,9 @@ number = int(input())
 for num in range(number + 1):
     print(f"{num} !")
 
-print("Completed, have a nice day!")
+print("""Let's test your programming knowledge.
+Why do we use methods?
+1. To repeat a statement multiple times.
+2. To decompose a program into several small subroutines.
+3. To determine the execution time of a program.
+4. To interrupt the execution of a program.""")
